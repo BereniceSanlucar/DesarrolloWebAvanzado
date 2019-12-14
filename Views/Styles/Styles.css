@@ -113,3 +113,47 @@ input[type=submit] {
 *:focus {
     outline: none;
 }
+
+#container-signup {
+    background-color: #222f5b;
+    position: relative;
+    top: 20%;
+    margin: auto;
+    width: 340px;
+    height: 440px;
+    border-radius: 0.35em;
+    box-shadow: 0 3px 10px 0 rgba(34,47,91);
+    text-align: center;
+}
+
+input[type=email] {
+    color: white;
+    margin: 0;
+    background-color: #4E587B;
+    border: 1px solid #4E587B;
+    padding: 6px 0px;
+}
+
+input[type=email]:focus {
+    border: 1px solid #4E587B;
+}
+
+.login {
+    margin: auto;
+    padding: 16px 0;
+    text-align: center;
+    margin-top: 40px;
+    width: 85%;
+    border-top: 1px solid white;
+}
+
+#login-link {
+    margin-top: 10px;
+    padding: 6px 25px;
+    background: #0e1a40;
+    color: white;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 3px;
+}
